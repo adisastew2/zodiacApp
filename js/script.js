@@ -112,7 +112,7 @@ function getInfo() {
 			element.innerHTML = "Element: " + aquarius.element
 			image.src = aquarius.image
 			strength.innerHTML = "Strengths: " + aquarius.strength
-			weak.innerHTML = "Weaknesses" + aquarius.weak
+			weak.innerHTML = "Weaknesses: " + aquarius.weak
 			bio.innerHTML = aquarius.bio
 		}
 		else if(day > 0 && day < 20){
@@ -120,7 +120,7 @@ function getInfo() {
 			element.innerHTML = "Element: " + capricorn.element
 			image.src = capricorn.image
 			strength.innerHTML = "Strengths: " + capricorn.strength
-			weak.innerHTML = "Weaknesses" + capricorn.weak
+			weak.innerHTML = "Weaknesses: " + capricorn.weak
 			bio.innerHTML = capricorn.bio
 		}
 	}
@@ -130,7 +130,7 @@ function getInfo() {
 			element.innerHTML = "Element: " + aquarius.element
 			image.src = aquarius.image
 			strength.innerHTML = "Strengths: " + aquarius.strength
-			weak.innerHTML = "Weaknesses" + aquarius.weak
+			weak.innerHTML = "Weaknesses: " + aquarius.weak
 			bio.innerHTML = aquarius.bio
 		}
 		else if(day > 18 && day < 30){
@@ -138,8 +138,26 @@ function getInfo() {
 			element.innerHTML = "Element: " + pisces.element
 			image.src = pisces.image
 			strength.innerHTML = "Strengths: " + pisces.strength
-			weak.innerHTML = "Weaknesses" + pisces.weak
+			weak.innerHTML = "Weaknesses: " + pisces.weak
 			bio.innerHTML = pisces.bio
+		}
+	}
+	else if(month.toLowerCase() == "march"){
+		if(day > 0 && day < 21){
+			name.innerHTML = pisces.name
+			element.innerHTML = "Element: " + pisces.element
+			image.src = pisces.image
+			strength.innerHTML = "Strengths: " + pisces.strength
+			weak.innerHTML = "Weaknesses: " + pisces.weak
+			bio.innerHTML = pisces.bio
+		}
+		else if(day > 20 && day < 32){
+			name.innerHTML = aries.name
+			element.innerHTML = "Element: " + aries.element
+			image.src = aries.image
+			strength.innerHTML = "Strengths: " + aries.strength
+			weak.innerHTML = "Weaknesses: " + aries.weak
+			bio.innerHTML = aries.bio
 		}
 	}
 
