@@ -6,6 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
+	<!-- input form -->
 	<form class="form-inline">
   		<div class="form-group">
     		<label for="month">Birth Month</label>
@@ -15,8 +16,20 @@
     		<label for="day">Day</label>
     			<input type="text" class="form-control" id="day" placeholder="ex: 20">
   		</div>
-  		<button type="button" onclick="getInfo()" class="btn btn-primary btn-lg">Check Sign</button>
+
+  		<!-- button connected to js function -->
+  		<button type="button" onclick="getInfo()" class="btn btn-primary btn-lg">Check Sign!</button>
 	</form>
+
+	<div id="results">
+		<h2 id="name"></h2>
+		<p id="element"></p>
+		<img id="image">
+		<p id="strength"></p>
+		<p id="weak"></p>
+		<p id="bio"></p>
+
+	</div>
 
 	<script src="js/jquery-1.12.1.min.js"></script> 
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
