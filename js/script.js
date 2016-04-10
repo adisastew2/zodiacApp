@@ -160,6 +160,24 @@ function getInfo() {
 			bio.innerHTML = aries.bio
 		}
 	}
+	else if(month.toLowerCase() == "april"){
+		if(day > 0 && day < 20){
+			name.innerHTML = aries.name
+			element.innerHTML = "Element: " + aries.element
+			image.src = aries.image
+			strength.innerHTML = "Strengths: " + aries.strength
+			weak.innerHTML = "Weaknesses: " + aries.weak
+			bio.innerHTML = aries.bio
+		}
+		else if(day > 18 && day < 31){
+			name.innerHTML = taurus.name
+			element.innerHTML = "Element: " + taurus.element
+			image.src = taurus.image
+			strength.innerHTML = "Strengths: " + taurus.strength
+			weak.innerHTML = "Weaknesses: " + taurus.weak
+			bio.innerHTML = taurus.bio
+		}
+	}
 
 
 }
