@@ -109,11 +109,19 @@ function getInfo() {
 	if(month.toLowerCase() == "january"){
 		if(day > 19 && day < 32){
 			name.innerHTML=aquarius.name
-			element.innerHTML=aquarius.element
+			element.innerHTML="Element: " + aquarius.element
 			image.src=aquarius.image
-			strength.innerHTML=aquarius.strength
-			weak.innerHTML=aquarius.weak
+			strength.innerHTML="Strengths: " + aquarius.strength
+			weak.innerHTML="Weaknesses" + aquarius.weak
 			bio.innerHTML=aquarius.bio
+		}
+		else if(day > 0 && day < 20){
+			name.innerHTML=capricorn.name
+			element.innerHTML="Element: " + capricorn.element
+			image.src=capricorn.image
+			strength.innerHTML="Strengths: " + capricorn.strength
+			weak.innerHTML="Weaknesses" + capricorn.weak
+			bio.innerHTML=capricorn.bio
 		}
 	}
 
