@@ -196,6 +196,24 @@ function getInfo() {
 			bio.innerHTML = gemini.bio
 		}
 	}
+	else if(month.toLowerCase() == "june"){
+		if(day > 0 && day < 21){
+			name.innerHTML = gemini.name
+			element.innerHTML = "Element: " + gemini.element
+			image.src = gemini.image
+			strength.innerHTML = "Strengths: " + gemini.strength
+			weak.innerHTML = "Weaknesses: " + gemini.weak
+			bio.innerHTML = gemini.bio
+		}
+		else if(day > 20 && day < 31){
+			name.innerHTML = cancer.name
+			element.innerHTML = "Element: " + cancer.element
+			image.src = cancer.image
+			strength.innerHTML = "Strengths: " + cancer.strength
+			weak.innerHTML = "Weaknesses: " + cancer.weak
+			bio.innerHTML = cancer.bio
+		}
+	}
 
 
 }
