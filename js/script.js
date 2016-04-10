@@ -97,9 +97,23 @@ function getInfo() {
 	var month = document.getElementById("month").value
 	var day = document.getElementById("day").value
 
+	// access results div
+	var name = document.getElementById("name")
+	var element = document.getElementById("element")
+	var image = document.getElementById("image")
+	var strength = document.getElementById("strength")
+	var weak = document.getElementById("weak")
+	var bio = document.getElementById("bio")
+
+	// if statement to push data
 	if(month.toLowerCase() == "january"){
 		if(day > 19 && day < 32){
-			
+			name.innerHTML=aquarius.name
+			element.innerHTML=aquarius.element
+			image.src=aquarius.image
+			strength.innerHTML=aquarius.strength
+			weak.innerHTML=aquarius.weak
+			bio.innerHTML=aquarius.bio
 		}
 	}
 
