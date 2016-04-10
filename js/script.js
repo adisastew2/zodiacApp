@@ -178,6 +178,24 @@ function getInfo() {
 			bio.innerHTML = taurus.bio
 		}
 	}
+	else if(month.toLowerCase() == "may"){
+		if(day > 0 && day < 21){
+			name.innerHTML = taurus.name
+			element.innerHTML = "Element: " + taurus.element
+			image.src = taurus.image
+			strength.innerHTML = "Strengths: " + taurus.strength
+			weak.innerHTML = "Weaknesses: " + taurus.weak
+			bio.innerHTML = taurus.bio
+		}
+		else if(day > 20 && day < 32){
+			name.innerHTML = gemini.name
+			element.innerHTML = "Element: " + gemini.element
+			image.src = gemini.image
+			strength.innerHTML = "Strengths: " + gemini.strength
+			weak.innerHTML = "Weaknesses: " + gemini.weak
+			bio.innerHTML = gemini.bio
+		}
+	}
 
 
 }
