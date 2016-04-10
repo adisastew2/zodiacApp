@@ -1,12 +1,11 @@
 // zodiac constructor
-function zodiac(name, element, strength, weak, bio, image, insult) {
+function zodiac(name, element, strength, weak, bio, image) {
 	this.name = name;
 	this.element = element;
 	this.strength = strength;
 	this.weak = weak;
 	this.bio = bio;
 	this.image = image;
-	this.insult = insult;
 }
 // zodiac objects (add insults)
 var aquarius = new zodiac(
