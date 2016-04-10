@@ -20,7 +20,7 @@ var pisces = new zodiac(
 	"Compassionate, artistic, intuitive, gentle, wise, musical",
 	"Fearful, overly trusting, sad, desire to escape reality, can be a victim or a martyr",
 	"Pisces are very friendly, so they often find themselves in a company of very different people. Pisces are selfless, they are always willing to help others, without hoping to get anything back. Pisces is a Water sign and as such this zodiac sign is characterized by empathy and expressed emotional capacity. Their ruling planet is Neptune, so Pisces are more intuitive than others and have an artistic talent. Neptune is connected to music, so Pisces reveal music preferences in the earliest stages of life. They are generous, compassionate and extremely faithful and caring. People born under the Pisces sign have an intuitive understanding of the life cycle and thus achieve the best emotional relationship with other beings. Pisces-born are known by their wisdom, but under the influence of Uranus, Pisces sometimes can take the role of a martyr, in order to catch the attention. Pisces are never judgmental and always forgiving. They are also known to be most tolerant of all the zodiac signs.",
-	"img/pisces.jpg")
+	"img/pisces.png")
 
 var aries = new zodiac(
 	"Aries", "Fire",
@@ -108,20 +108,38 @@ function getInfo() {
 	// if statement to push data
 	if(month.toLowerCase() == "january"){
 		if(day > 19 && day < 32){
-			name.innerHTML=aquarius.name
-			element.innerHTML="Element: " + aquarius.element
-			image.src=aquarius.image
-			strength.innerHTML="Strengths: " + aquarius.strength
-			weak.innerHTML="Weaknesses" + aquarius.weak
-			bio.innerHTML=aquarius.bio
+			name.innerHTML = aquarius.name
+			element.innerHTML = "Element: " + aquarius.element
+			image.src = aquarius.image
+			strength.innerHTML = "Strengths: " + aquarius.strength
+			weak.innerHTML = "Weaknesses" + aquarius.weak
+			bio.innerHTML = aquarius.bio
 		}
 		else if(day > 0 && day < 20){
-			name.innerHTML=capricorn.name
-			element.innerHTML="Element: " + capricorn.element
-			image.src=capricorn.image
-			strength.innerHTML="Strengths: " + capricorn.strength
-			weak.innerHTML="Weaknesses" + capricorn.weak
-			bio.innerHTML=capricorn.bio
+			name.innerHTML = capricorn.name
+			element.innerHTML = "Element: " + capricorn.element
+			image.src = capricorn.image
+			strength.innerHTML = "Strengths: " + capricorn.strength
+			weak.innerHTML = "Weaknesses" + capricorn.weak
+			bio.innerHTML = capricorn.bio
+		}
+	}
+	else if(month.toLowerCase() == "february"){
+		if(day > 0 && day < 19){
+			name.innerHTML = aquarius.name
+			element.innerHTML = "Element: " + aquarius.element
+			image.src = aquarius.image
+			strength.innerHTML = "Strengths: " + aquarius.strength
+			weak.innerHTML = "Weaknesses" + aquarius.weak
+			bio.innerHTML = aquarius.bio
+		}
+		else if(day > 18 && day < 30){
+			name.innerHTML = pisces.name
+			element.innerHTML = "Element: " + pisces.element
+			image.src = pisces.image
+			strength.innerHTML = "Strengths: " + pisces.strength
+			weak.innerHTML = "Weaknesses" + pisces.weak
+			bio.innerHTML = pisces.bio
 		}
 	}
 
