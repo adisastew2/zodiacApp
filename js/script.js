@@ -304,6 +304,24 @@ function getInfo() {
 			bio.innerHTML = sagittarius.bio
 		}
 	}
+	else if(month.toLowerCase() == "december"){
+		if(day > 0 && day < 22){
+			name.innerHTML = sagittarius.name
+			element.innerHTML = "Element: " + sagittarius.element
+			image.src = sagittarius.image
+			strength.innerHTML = "Strengths: " + sagittarius.strength
+			weak.innerHTML = "Weaknesses: " + sagittarius.weak
+			bio.innerHTML = sagittarius.bio
+		}
+		else if(day > 21 && day < 32){
+			name.innerHTML = capricorn.name
+			element.innerHTML = "Element: " + capricorn.element
+			image.src = capricorn.image
+			strength.innerHTML = "Strengths: " + capricorn.strength
+			weak.innerHTML = "Weaknesses: " + capricorn.weak
+			bio.innerHTML = capricorn.bio
+		}
+	}
 
 
 }
