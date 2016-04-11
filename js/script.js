@@ -286,6 +286,24 @@ function getInfo() {
 			bio.innerHTML = scorpio.bio
 		}
 	}
+	else if(month.toLowerCase() == "november"){
+		if(day > 0 && day < 22){
+			name.innerHTML = scorpio.name
+			element.innerHTML = "Element: " + scorpio.element
+			image.src = scorpio.image
+			strength.innerHTML = "Strengths: " + scorpio.strength
+			weak.innerHTML = "Weaknesses: " + scorpio.weak
+			bio.innerHTML = scorpio.bio
+		}
+		else if(day > 21 && day < 31){
+			name.innerHTML = sagittarius.name
+			element.innerHTML = "Element: " + sagittarius.element
+			image.src = sagittarius.image
+			strength.innerHTML = "Strengths: " + sagittarius.strength
+			weak.innerHTML = "Weaknesses: " + sagittarius.weak
+			bio.innerHTML = sagittarius.bio
+		}
+	}
 
 
 }
