@@ -268,6 +268,24 @@ function getInfo() {
 			bio.innerHTML = libra.bio
 		}
 	}
+	else if(month.toLowerCase() == "october"){
+		if(day > 0 && day < 23){
+			name.innerHTML = libra.name
+			element.innerHTML = "Element: " + libra.element
+			image.src = libra.image
+			strength.innerHTML = "Strengths: " + libra.strength
+			weak.innerHTML = "Weaknesses: " + libra.weak
+			bio.innerHTML = libra.bio
+		}
+		else if(day > 22 && day < 32){
+			name.innerHTML = scorpio.name
+			element.innerHTML = "Element: " + scorpio.element
+			image.src = scorpio.image
+			strength.innerHTML = "Strengths: " + scorpio.strength
+			weak.innerHTML = "Weaknesses: " + scorpio.weak
+			bio.innerHTML = scorpio.bio
+		}
+	}
 
 
 }
