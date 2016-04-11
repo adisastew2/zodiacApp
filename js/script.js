@@ -232,6 +232,24 @@ function getInfo() {
 			bio.innerHTML = leo.bio
 		}
 	}
+	else if(month.toLowerCase() == "august"){
+		if(day > 0 && day < 23){
+			name.innerHTML = leo.name
+			element.innerHTML = "Element: " + leo.element
+			image.src = leo.image
+			strength.innerHTML = "Strengths: " + leo.strength
+			weak.innerHTML = "Weaknesses: " + leo.weak
+			bio.innerHTML = leo.bio
+		}
+		else if(day > 22 && day < 32){
+			name.innerHTML = virgo.name
+			element.innerHTML = "Element: " + virgo.element
+			image.src = virgo.image
+			strength.innerHTML = "Strengths: " + virgo.strength
+			weak.innerHTML = "Weaknesses: " + virgo.weak
+			bio.innerHTML = virgo.bio
+		}
+	}
 
 
 }
