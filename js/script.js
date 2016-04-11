@@ -105,7 +105,7 @@ function getInfo() {
 	var weak = document.getElementById("weak")
 	var bio = document.getElementById("bio")
 
-	// if statement to push data
+	// if statement to push data to results div
 	if(month.toLowerCase() == "january"){
 		if(day > 19 && day < 32){
 			name.innerHTML = aquarius.name
