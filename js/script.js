@@ -250,6 +250,24 @@ function getInfo() {
 			bio.innerHTML = virgo.bio
 		}
 	}
+	else if(month.toLowerCase() == "september"){
+		if(day > 0 && day < 23){
+			name.innerHTML = virgo.name
+			element.innerHTML = "Element: " + virgo.element
+			image.src = virgo.image
+			strength.innerHTML = "Strengths: " + virgo.strength
+			weak.innerHTML = "Weaknesses: " + virgo.weak
+			bio.innerHTML = virgo.bio
+		}
+		else if(day > 22 && day < 31){
+			name.innerHTML = libra.name
+			element.innerHTML = "Element: " + libra.element
+			image.src = libra.image
+			strength.innerHTML = "Strengths: " + libra.strength
+			weak.innerHTML = "Weaknesses: " + libra.weak
+			bio.innerHTML = libra.bio
+		}
+	}
 
 
 }
