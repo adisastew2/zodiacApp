@@ -214,6 +214,24 @@ function getInfo() {
 			bio.innerHTML = cancer.bio
 		}
 	}
+	else if(month.toLowerCase() == "july"){
+		if(day > 0 && day < 23){
+			name.innerHTML = cancer.name
+			element.innerHTML = "Element: " + cancer.element
+			image.src = cancer.image
+			strength.innerHTML = "Strengths: " + cancer.strength
+			weak.innerHTML = "Weaknesses: " + cancer.weak
+			bio.innerHTML = cancer.bio
+		}
+		else if(day > 22 && day < 32){
+			name.innerHTML = leo.name
+			element.innerHTML = "Element: " + leo.element
+			image.src = leo.image
+			strength.innerHTML = "Strengths: " + leo.strength
+			weak.innerHTML = "Weaknesses: " + leo.weak
+			bio.innerHTML = leo.bio
+		}
+	}
 
 
 }
