@@ -106,7 +106,7 @@ function getInfo() {
 	var bio = document.getElementById("bio")
 
 	// if statement to push data to results div
-	if(month.toLowerCase() == "january"){
+	if(month.toLowerCase() == "january" || month.toLowerCase() == "jan"){
 		if(day > 19 && day < 32){
 			name.innerHTML = aquarius.name
 			element.innerHTML = "Element: " + aquarius.element
@@ -124,7 +124,7 @@ function getInfo() {
 			bio.innerHTML = capricorn.bio
 		}
 	}
-	else if(month.toLowerCase() == "february"){
+	else if(month.toLowerCase() == "february" || month.toLowerCase() == "feb"){
 		if(day > 0 && day < 19){
 			name.innerHTML = aquarius.name
 			element.innerHTML = "Element: " + aquarius.element
@@ -142,7 +142,7 @@ function getInfo() {
 			bio.innerHTML = pisces.bio
 		}
 	}
-	else if(month.toLowerCase() == "march"){
+	else if(month.toLowerCase() == "march" || month.toLowerCase() == "mar"){
 		if(day > 0 && day < 21){
 			name.innerHTML = pisces.name
 			element.innerHTML = "Element: " + pisces.element
@@ -160,7 +160,7 @@ function getInfo() {
 			bio.innerHTML = aries.bio
 		}
 	}
-	else if(month.toLowerCase() == "april"){
+	else if(month.toLowerCase() == "april" || month.toLowerCase() == "apr"){
 		if(day > 0 && day < 20){
 			name.innerHTML = aries.name
 			element.innerHTML = "Element: " + aries.element
@@ -232,7 +232,7 @@ function getInfo() {
 			bio.innerHTML = leo.bio
 		}
 	}
-	else if(month.toLowerCase() == "august"){
+	else if(month.toLowerCase() == "august" || month.toLowerCase() == "aug"){
 		if(day > 0 && day < 23){
 			name.innerHTML = leo.name
 			element.innerHTML = "Element: " + leo.element
@@ -250,7 +250,7 @@ function getInfo() {
 			bio.innerHTML = virgo.bio
 		}
 	}
-	else if(month.toLowerCase() == "september"){
+	else if(month.toLowerCase() == "september" || month.toLowerCase() == "sept"){
 		if(day > 0 && day < 23){
 			name.innerHTML = virgo.name
 			element.innerHTML = "Element: " + virgo.element
@@ -268,7 +268,7 @@ function getInfo() {
 			bio.innerHTML = libra.bio
 		}
 	}
-	else if(month.toLowerCase() == "october"){
+	else if(month.toLowerCase() == "october" || month.toLowerCase() == "oct"){
 		if(day > 0 && day < 23){
 			name.innerHTML = libra.name
 			element.innerHTML = "Element: " + libra.element
@@ -286,7 +286,7 @@ function getInfo() {
 			bio.innerHTML = scorpio.bio
 		}
 	}
-	else if(month.toLowerCase() == "november"){
+	else if(month.toLowerCase() == "november" || month.toLowerCase() == "nov"){
 		if(day > 0 && day < 22){
 			name.innerHTML = scorpio.name
 			element.innerHTML = "Element: " + scorpio.element
@@ -304,7 +304,7 @@ function getInfo() {
 			bio.innerHTML = sagittarius.bio
 		}
 	}
-	else if(month.toLowerCase() == "december"){
+	else if(month.toLowerCase() == "december" || month.toLowerCase() == "dec"){
 		if(day > 0 && day < 22){
 			name.innerHTML = sagittarius.name
 			element.innerHTML = "Element: " + sagittarius.element
